@@ -1,0 +1,368 @@
+body{
+	font-family: Arial;
+}
+
+.content{
+	margin:0 auto;
+	width:1150px;
+}
+
+.navbar{
+	background-color:#F6F7F9;
+	height:155px;
+	margin-bottom:1px;
+	border-bottom:solid 1px #E1E1E1;
+}
+
+
+header nav ul {
+	height:50px;
+	width:1100px;
+	background-color:white;
+	border-radius:5px;
+	padding-top:15px;
+	border:solid 1px #E1E1E1;
+	margin-top:20px;
+}
+
+.glownemenu{
+	height:400px;
+	
+}
+header nav{
+	height:400px;
+	width:900px;
+}
+
+nav ul{
+	padding-left:10px;
+}
+
+.thing a{
+	color:#237B89;
+	font-weight:bold;
+	font-size:17px;
+	padding:5px;
+	margin-right:3px;
+}
+
+.thing a:hover{
+	background-color:#D2EEF1;
+	border-radius:5px;
+}
+
+.placesstay a{
+	color:#708691;
+	font-weight:bold;
+	font-size:17px;
+	padding:3px;
+	margin-right:3px;
+}
+
+.deals a{
+	color:#E78E3E;
+	font-weight:bold;
+	font-size:17px;
+	padding:3px;
+	margin-right:3px;
+}
+
+.explore a{
+	color:#DB2860;
+	font-weight:bold;
+	font-size:17px;
+	padding:3px;
+	margin-right:3px;
+}
+
+.booktrip{
+	color:white; 
+	font-weight:bold;
+	font-size:17px;
+	padding:3px
+}
+
+.bahamas{
+	float:left;
+}
+
+.country{
+	font-size:12px;
+	display:inline-block;
+	
+}
+
+.country h4{
+	display:inline;
+	margin-right:10px;
+	color:#ccc;
+
+}
+.search-place{
+	float:right;
+	margin-bottom:1px;
+	margin-right:20px;
+}
+
+.search{
+	display:inline-block;
+	padding-top:10px;
+}
+
+input[type=text] {
+    width: 250px;
+	height:35px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+	border-radius:10px;
+    font-size: 14px;
+    background-image: url('image/search.png');  
+    background-repeat: no-repeat;
+	float:right;
+}
+
+#selection option{
+   background: url('image/usa3.jpg') 0 0 no-repeat;
+   background-size:50%;
+   padding-left: 30px;
+   margin-bottom:5px;
+   height: 20px;
+   background-size: 100%;
+   width:10px;
+   border: 1px solid #ccc;
+}
+
+#selection{
+	margin-bottom:5px;
+}
+
+
+.types-yacht{
+	margin-top:56px;
+}
+
+nav{
+	padding-right:10px;
+	padding-left:10px;
+	display:flex;
+	justify-content:center;
+}
+
+nav ul li{
+	display:inline-block;
+}
+
+nav ul li a{
+	text-decoration:none;
+	margin:16px;
+}
+
+.types-yacht li a:hover{
+	background-color:#F5F5F5;
+	border-radius:8px;
+}
+
+.types-yacht li a{
+	padding:7px;
+	color:#237B89;
+	font-weight:bold;
+	font-size:15px;
+}
+
+.description{
+	height:500px;
+	width:280px;
+	float:left;
+	background-color:#054551;
+}
+
+.charter-title{
+	color:white;
+	font-size:40px;
+	margin-top:200px;
+	margin-left:40px;
+}
+.charter-description{
+	color:#A9E2EB;
+	margin-left:40px;
+}
+	
+.image-yacht{
+	background-image:url("image/statek5.png");
+	width:100%;
+	height:500px;
+	background-position:center;
+	background-size:cover;
+}
+
+
+.order-form{
+	position:absolute;
+	bottom:0 auto;
+	right:120px;
+	top:355px;
+	background-color:white;
+	width:300px;
+	height:450px;
+	border-radius:8px;
+}
+
+.logo-ship{
+	width:300px;
+	height:50px;
+	margin-top:229px;
+	background-color:#46B4C1;
+	border-radius:8px;
+}
+
+
+.small-ship-logo{
+	width:70px;
+	height:50px;
+	display:inline-block;
+	
+}
+
+.form-title{
+	color:#78C7D6;
+	padding-left:20px;
+}
+
+#custom-handle {
+    width: 7em;
+    height: 1.6em;
+    top: 50%;
+    margin-top: -.8em;
+    text-align: center;
+    line-height: 1.6em;
+	border-radius:15px;
+	background-color:#46B4C1;
+  }
+
+
+.order-form h4{
+	color:#46B4C1;
+	padding-left:20px;
+}
+
+.name-location{
+	padding-left:25px;
+	padding-right:25px;
+	margin-left:20px;
+	width:250px;
+	border-radius:5px;
+	background-color:#145170;
+	color:white;
+}
+
+.featured{
+	color:white;
+	display:inline-block;
+	
+}
+
+.full-width{
+	background-color:#E1F5F6;
+}
+
+
+
+.charter{
+	border-bottom:2px solid #7FCADD;
+}
+
+.small-ship{
+	display:inline-block;
+	padding-right:50px;
+}
+
+.blue{
+	color:#7FCADD;
+	font-weight:bold;
+}
+
+.przycisk{
+	position:relative;
+}
+
+.przycisk a{
+	display:inline-block;
+	padding:5px 15px 5px 15px;
+	position:absolute;
+	bottom:15px;
+	right:45px;
+	background-color:#7FCADD;
+	color:white;
+	border-radius:15px;
+	text-decoration:none;
+	font-size:10px;
+}
+	
+.reklama{
+	float:right;
+	padding-left:
+}
+	
+.top{
+	padding-top:35px;
+	padding-left:25px;
+	padding-right:25px;
+}
+
+.bottom{
+	padding-left:30px;
+	padding-top:25px;
+	padding-right:25px;
+}
+
+.small-ship p , .blue p{
+	font-size:13px;
+}
+
+.small-ship p {
+	color:#525252;
+}
+
+.fisherman{
+	width:350px;
+	height:315px;
+	background-color:#E1F5F6;
+}
+
+.fisherman ul li{
+	font-size:13px;
+	list-style: none;
+}
+
+.fisherman ul li a{
+	color:black;
+	text-decoration:none;
+	font-weight:bold;
+	
+}
+
+.fisherman ul li:before{
+	content :">";
+} 
+
+.fish_bahamas{
+
+
+}
+.fish_bahamas h3{
+	padding-left:30px;
+}
+
+.border{
+	border-bottom:2px solid #7FCADD;
+	width:300px;
+	margin-left:25px;
+	margin-right:25px;
+	
+}
+
+
+
+
+
+
