@@ -215,12 +215,21 @@ nav ul li a{
 	border-radius:8px;
 }
 
-
 .small-ship-logo{
 	width:70px;
 	height:50px;
 	display:inline-block;
-	
+	vertical-align: bottom;
+}
+
+.find-yachts{
+	display:inline-block;
+}
+
+.find-yachts p{
+	color:white;
+	font-weight:bold;
+	padding-left:33px;
 }
 
 .form-title{
@@ -255,18 +264,6 @@ nav ul li a{
 	color:white;
 }
 
-.featured{
-	color:white;
-	display:inline-block;
-	
-}
-
-.full-width{
-	background-color:#E1F5F6;
-}
-
-
-
 .charter{
 	border-bottom:2px solid #7FCADD;
 }
@@ -296,6 +293,7 @@ nav ul li a{
 	border-radius:15px;
 	text-decoration:none;
 	font-size:10px;
+	width:40px;
 }
 	
 .reklama{
@@ -345,10 +343,6 @@ nav ul li a{
 	content :">";
 } 
 
-.fish_bahamas{
-
-
-}
 .fish_bahamas h3{
 	padding-left:30px;
 }
@@ -358,11 +352,30 @@ nav ul li a{
 	width:300px;
 	margin-left:25px;
 	margin-right:25px;
-	
 }
 
+.tabs li{
+	display:inline;
+}
 
+.tabs a{
+	padding:30px 10px;
+	display:inline-block;
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+}
 
+.featured:hover{
+	background-color:white;
+	padding-top:10px;
+	color:#78C6C8;
+	border-radius:5px;
+}
 
-
-
+.tabs{
+	background:#E1F5F6;
+	height:75px;
+	margin-top:0;
+}

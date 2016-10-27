@@ -7,23 +7,21 @@
   
   <title>Superyachts</title>
   
-    
-  <script src="superyachts.js"></script>
-  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="superyachts.js"></script>
  
 </head>
 
 <body>
-
-	<div class="content">
-	
-		
-			<header class="navbar">
-				<div class="bahamas">
-					<img src="image/bahamaslogo.png">
-				</div>
+	<div class="content">		
+		<header class="navbar">
+			<div class="bahamas">
+				<img src="image/bahamaslogo.png">
+			</div>
 				
-				<div class="search-place">
+			<div class="search-place">
 					<div class="search">
 						<form>
 						 <input type="text" name="search" placeholder="Search:">
@@ -96,173 +94,225 @@
 						<h3 class="form-title">search for a yacht</h3>
 						
 						<select name="location" class="name-location">
-								<option>Acklins</option>
-								<option>Berry Islands</option>
-								<option>Bimini</option>
+							<option>Acklins</option>
+							<option>Berry Islands</option>
+							<option>Bimini</option>
 						</select>
 						
 						
 						<h4>Number of guests:</h4>
 						<input type="range" name="whatever" min="1" max="10">
 					
+						
+						
 						<div class="logo-ship">
 								<div class="small-ship-logo">
 									<img src="image/statek.svg" width="60">
 								</div>
-								
+								<div class="find-yachts">
+									<p>Find yachts</p>
+								</div>
 						</div>
-						
 					</div>
 			</div>
-			
-			
 		</section>
 		
-		<section>
-			<div id="marinas">
-				
-				<div class="full-width">
-					<div class="featured">
-						<h2>featured yachts under 24m</h2>
 
-					</div>
-					
-					<div class="featured">
-						<h2>featured superyachts</h2>
-					</div>
-				</div>
-			</div>
-		</section>
 	
 		<!-- Sekcja z malymi obrazkami-->
 	
 		<section>
 		<div class="container">	
-			
-		
-				<div class="top">
 				
-					<div class="small-ship">
-						<div class="charter">
-							
-							<div class="przycisk">
-								<img src="image/ship1.png">
-								<a href="#">More</a>
-							</div>
-							
-							<h3><span class="blue">Kokomo</span></h3>
-						</div>
-							<p><span class="blue">Location:</span> Nassau</p>
-							<p><span class="blue">Guests:</span> 8</p>
-							<p><span class="blue">Build year:</span> 2010</p>
-							<p><span class="blue">Price:</span> From $395,000 p/week</p>
-					</div>
-					
-					<div class="small-ship">
-						<div class="charter">
-							
-							<div class="przycisk">
-								<img src="image/ship2.png">
-								<a href="#">More</a>
-							</div>
-							
-							<h3><span class="blue">Kokomo</span></h3>
-						</div>
-							<p><span class="blue">Location:</span> Nassau</p>
-							<p><span class="blue">Guests:</span> 8</p>
-							<p><span class="blue">Build year:</span> 2010</p>
-							<p><span class="blue">Price:</span> From $395,000 p/week</p>
-					</div>
-					
-					<div class="small-ship">
-						<div class="charter">
-							
-							<div class="przycisk">
-								<img src="image/ship3.png">
-								<a href="#">More</a>
-							</div>
-							
-							<h3><span class="blue">Kokomo</span></h3>
-						</div>
-							<p><span class="blue">Location:</span> Nassau</p>
-							<p><span class="blue">Guests:</span> 8</p>
-							<p><span class="blue">Build year:</span> 2010</p>
-							<p><span class="blue">Price:</span> From $395,000 p/week</p>
-					</div>
-					
-					<div class="reklama">
-						<img src="image/test6.png">
-					</div>
-					
-				</div>
-				
-				<div class="bottom">
-				
-					<div class="small-ship">
-						<div class="charter">
-							
-							<div class="przycisk">
-								<img src="image/ship4.png">
-								<a href="#">More</a>
-							</div>
-							
-							<h3><span class="blue">Kokomo</span></h3>
-						</div>
-							<p><span class="blue">Location:</span> Nassau</p>
-							<p><span class="blue">Guests:</span> 8</p>
-							<p><span class="blue">Build year:</span> 2010</p>
-							<p><span class="blue">Price:</span> From $395,000 p/week</p>
-					</div>
-					
-					<div class="small-ship">
-						<div class="charter">
-							
-							<div class="przycisk">
-								<img src="image/ship5.png">
-								<a href="#">More</a>
-							</div>
-							
-							<h3><span class="blue">Kokomo</span></h3>
-						</div>
-							<p><span class="blue">Location:</span> Nassau</p>
-							<p><span class="blue">Guests:</span> 8</p>
-							<p><span class="blue">Build year:</span> 2010</p>
-							<p><span class="blue">Price:</span> From $395,000 p/week</p>
-					</div>
-					
-					<div class="small-ship">
-						<div class="charter">
-							
-							<div class="przycisk">
-								<img src="image/ship6.png">
-								<a href="#">More</a>
-							</div>
-							
-							<h3><span class="blue">Kokomo</span></h3>
-						</div>
-							<p><span class="blue">Location:</span> Nassau</p>
-							<p><span class="blue">Guests:</span> 8</p>
-							<p><span class="blue">Build year:</span> 2010</p>
-							<p><span class="blue">Price:</span> From $395,000 p/week</p>
-					</div>
-					
-					<div class="reklama fisherman">
-						
-						<div class="fish_bahamas">
-								<img src="image/fish.png">
-								<h3><span class="blue">also on bahamas.com</h3>
-							<div class="border"> </div>
-						</div>
-						
-							<ul>
-								<li><a href="#">Fish the Bahamas</a></li>
-								<li><a href="#">Weddings in the Bahamas</a></li>
-								<li><a href="#">Sports in the Bahamas</a></li>
-							</ul>
-					</div>
-					
-				</div>	
+					 <ul class='tabs'>
+						  <li><a href='#tab1' class="featured">featured yachts under 24m</a></li>
+						  <li><a href='#tab2' class="featured">featured superyachts</a></li>
 
+					</ul>
+			
+			<div id='tab1'>
+					<div class="top">
+					
+						<div class="small-ship">
+							<div class="charter">
+								
+								<div class="przycisk">
+									<img src="image/ship1.png">
+									<a href="#">More</a>
+								</div>
+								
+								<h3><span class="blue">Kokomo</span></h3>
+							</div>
+								<p><span class="blue">Location:</span> Nassau</p>
+								<p><span class="blue">Guests:</span> 8</p>
+								<p><span class="blue">Build year:</span> 2010</p>
+								<p><span class="blue">Price:</span> From $395,000 p/week</p>
+						</div>
+						
+						<div class="small-ship">
+							<div class="charter">
+								
+								<div class="przycisk">
+									<img src="image/ship2.png">
+									<a href="#">More</a>
+								</div>
+								
+								<h3><span class="blue">Kokomo</span></h3>
+							</div>
+								<p><span class="blue">Location:</span> Nassau</p>
+								<p><span class="blue">Guests:</span> 8</p>
+								<p><span class="blue">Build year:</span> 2010</p>
+								<p><span class="blue">Price:</span> From $395,000 p/week</p>
+						</div>
+						
+						<div class="small-ship">
+							<div class="charter">
+								
+								<div class="przycisk">
+									<img src="image/ship3.png">
+									<a href="#">More</a>
+								</div>
+								
+								<h3><span class="blue">Kokomo</span></h3>
+							</div>
+								<p><span class="blue">Location:</span> Nassau</p>
+								<p><span class="blue">Guests:</span> 8</p>
+								<p><span class="blue">Build year:</span> 2010</p>
+								<p><span class="blue">Price:</span> From $395,000 p/week</p>
+						</div>
+						
+						<div class="reklama">
+							<img src="image/women.png">
+						</div>
+						
+					</div>
+					
+					<div class="bottom">
+					
+						<div class="small-ship">
+							<div class="charter">
+								
+								<div class="przycisk">
+									<img src="image/ship4.png">
+									<a href="#">More</a>
+								</div>
+								
+								<h3><span class="blue">Kokomo</span></h3>
+							</div>
+								<p><span class="blue">Location:</span> Nassau</p>
+								<p><span class="blue">Guests:</span> 8</p>
+								<p><span class="blue">Build year:</span> 2010</p>
+								<p><span class="blue">Price:</span> From $395,000 p/week</p>
+						</div>
+						
+						<div class="small-ship">
+							<div class="charter">
+								
+								<div class="przycisk">
+									<img src="image/ship5.png">
+									<a href="#">More</a>
+								</div>
+								
+								<h3><span class="blue">Kokomo</span></h3>
+							</div>
+								<p><span class="blue">Location:</span> Nassau</p>
+								<p><span class="blue">Guests:</span> 8</p>
+								<p><span class="blue">Build year:</span> 2010</p>
+								<p><span class="blue">Price:</span> From $395,000 p/week</p>
+						</div>
+						
+						<div class="small-ship">
+							<div class="charter">
+								
+								<div class="przycisk">
+									<img src="image/ship6.png">
+									<a href="#">More</a>
+								</div>
+								
+								<h3><span class="blue">Kokomo</span></h3>
+							</div>
+								<p><span class="blue">Location:</span> Nassau</p>
+								<p><span class="blue">Guests:</span> 8</p>
+								<p><span class="blue">Build year:</span> 2010</p>
+								<p><span class="blue">Price:</span> From $395,000 p/week</p>
+						</div>
+						
+						<div class="reklama fisherman">
+							
+							<div class="fish_bahamas">
+									<img src="image/fish.png">
+									<h3><span class="blue">also on bahamas.com</h3>
+								<div class="border"> </div>
+							</div>
+							
+								<ul>
+									<li><a href="#">Fish the Bahamas</a></li>
+									<li><a href="#">Weddings in the Bahamas</a></li>
+									<li><a href="#">Sports in the Bahamas</a></li>
+								</ul>
+						</div>
+						
+					</div>	
+
+			</div>	
+					<div id='tab2'>
+						
+							<div class="top">
+						
+								<div class="small-ship">
+									<div class="charter">
+										
+										<div class="przycisk">
+											<img src="image/ship1.png">
+											<a href="#">More</a>
+										</div>
+										
+										<h3><span class="blue">Kokomo</span></h3>
+									</div>
+										<p><span class="blue">Location:</span> Nassau</p>
+										<p><span class="blue">Guests:</span> 8</p>
+										<p><span class="blue">Build year:</span> 2010</p>
+										<p><span class="blue">Price:</span> From $395,000 p/week</p>
+								</div>
+								
+								<div class="small-ship">
+									<div class="charter">
+										
+										<div class="przycisk">
+											<img src="image/ship2.png">
+											<a href="#">More</a>
+										</div>
+										
+										<h3><span class="blue">Kokomo</span></h3>
+									</div>
+										<p><span class="blue">Location:</span> Nassau</p>
+										<p><span class="blue">Guests:</span> 8</p>
+										<p><span class="blue">Build year:</span> 2010</p>
+										<p><span class="blue">Price:</span> From $395,000 p/week</p>
+								</div>
+								
+								<div class="small-ship">
+									<div class="charter">
+										
+										<div class="przycisk">
+											<img src="image/ship3.png">
+											<a href="#">More</a>
+										</div>
+										
+										<h3><span class="blue">Kokomo</span></h3>
+									</div>
+										<p><span class="blue">Location:</span> Nassau</p>
+										<p><span class="blue">Guests:</span> 8</p>
+										<p><span class="blue">Build year:</span> 2010</p>
+										<p><span class="blue">Price:</span> From $395,000 p/week</p>
+								</div>
+								
+								<div class="reklama">
+									<img src="image/women.png">
+								</div>
+							</div>
+					</div>
+					
 		</div>
 		</section>
 			
